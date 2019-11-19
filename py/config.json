@@ -1,5 +1,5 @@
 {
-    "dburi": "mongodb+srv://XXXXXXX:XXXXXXX@cluster0-jvnpg.mongodb.net/test?retryWrites=true",
+    "dburi": "mongodb+srv://lestat:<652485>@lestat-2qoyl.mongodb.net/test?retryWrites=true&w=majority",
     "fbclientId": "XXXXXXXXXX",
     "fbclientSecret": "XXXXXXXXXXXX"   
 }
