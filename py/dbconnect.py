@@ -9,7 +9,7 @@ def getConfig(configitem):
 
 def dbConnection(dbcollectionname):
     dburi = getConfig('dburi')
-    dbname = "test"
+    dbname = "lestat"
     client = pymongo.MongoClient(dburi)
     db = client[dbname]
     dbcollection = db[dbcollectionname]

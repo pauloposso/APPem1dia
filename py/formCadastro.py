@@ -5,7 +5,7 @@ from urllib.parse import unquote
 import datetime
 
 
-dbcollectionname = "base"
+dbcollectionname = "messages"
 
 def listCadastro():
     dbcollection = dbConnection(dbcollectionname)
